@@ -1,0 +1,50 @@
+#-----------------------------------------------------------------------------
+# Name: Humza Anwar
+# Purpose: To be a program that includes the use of if statements, 
+#        looping structures, functions, and arrays to show my  
+#                   understanding of documentation standards
+#
+# References: 
+#
+# Author: Humza Anwar
+# Created: 20/09/18
+# Updated: 25/09/18
+#-----------------------------------------------------------------------------
+
+months_in_the_year = [January, February, March, April, May, June, July, 
+                      August, September, October, Novermber, December]
+
+all_star_signs = [Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio,
+				  Sagittarius, Capricorn, Aquarius, Pisces]
+
+for x in all_star_signs: 
+	print x
+	
+birth_month = input("""What month is your birthday? Make sure to start with a 
+                    capital letter & spell correctly """)
+birth_day = input("What day of that month is your birthday ")
+
+month_index = 1 + months_in_year.index(birth_month) # +1 for ease of 
+                                            # connection between index & month
+
+
+def star_sign(month_index, birth_day):
+    '''
+    Determines the star sign of the user based on the data entered.
+    
+    Parameters
+    ----------
+    month_index : int
+        The user's month of birth
+    birth_day : int
+        The users day of birthday 
+        
+    Returns
+    -------
+    str
+	    Star sign of the user (e.g. Capricorn)
+        
+    '''
+    if 
+    
+    

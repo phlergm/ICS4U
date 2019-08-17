@@ -1,0 +1,41 @@
+class Star_sign():
+    '''
+    An object that holds the information of a star sign
+
+    Attributes
+    ----------
+    name_of_sign : str
+        The english name of the star sign
+    start_month : int
+        The birth_month_index that the star sign starts on
+    start_day : int
+        The day of the month that the star sign starts on
+    end_month : int
+        The birth_month_index that the star sign ends on
+    end_day : int
+        The day of the month that the star sign ends on
+    '''
+
+    def __init__(self, name_of_sign, start_month, start_day, end_month, 
+                 end_day):
+        '''
+        An object that holds the information of a star sign
+
+        Attributes
+        ----------
+        name_of_sign : str
+            The english name of the star sign
+        start_month : int
+            The birth_month_index that the star sign starts on
+        start_day : int
+            The day of the month that the star sign starts on
+        end_month : int
+            The birth_month_index that the star sign ends on
+        end_day : int
+            The day of the month that the star sign ends on
+        '''
+        self.name_of_sign = name_of_sign
+        self.start_month = start_month
+        self.start_day = start_day
+        self.end_month = end_month
+        self.end_day = end_day
